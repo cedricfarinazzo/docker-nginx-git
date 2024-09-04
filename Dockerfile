@@ -1,4 +1,4 @@
-FROM debian:11.4-slim
+FROM debian:12.7-slim
 
 RUN apt-get -q -q update && \
     apt-get -y install gettext-base nginx fcgiwrap git
